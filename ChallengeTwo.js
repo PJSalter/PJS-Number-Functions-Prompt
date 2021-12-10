@@ -24,3 +24,17 @@ function addAndMultiply(n1, n2, n3, n4){
   console.log(addAndMultiply(1,1,1,1));
   
   // Logs 4
+
+  //Attempt 2 - ES6
+
+
+const plusAndTimes = (val1, val2, val3, val4) => (val1 + val2) * (val3 + val4);
+
+//Examples:
+let sumTotal = plusAndTimes(7,8,9,10);
+console.log(sumTotal);
+// Logging result outputs 285
+
+console.log(plusAndTimes(7,7,7,7));
+
+// Logs 196
