@@ -19,3 +19,16 @@ function checkLarger(n1, n2) {
   
   console.log(checkLarger(28, 54));
   // returns 54
+
+  //Attempt 2 - ES6
+
+const validateBiggerNums = (num1, num2) => num1 > num2 ? num1 : num2;
+
+console.log(validateBiggerNums(3,4));
+// Outputs 4
+
+console.log(validateBiggerNums(84,22));
+// Returns 84
+
+console.log(validateBiggerNums(16, 49));
+// returns 49
