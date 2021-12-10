@@ -22,3 +22,20 @@ console.log(total);
 
 console.log(total - total);
 // Logs 0
+
+//......Attempt 2 - ES6 with Reduce (Higher Order Function)...........//
+
+const plusArrNum = arr => arr.reduce((preVal, currVal) => preVal + currVal, 0);
+
+let sumVal = plusArrNum([9,16,29,43]);
+
+console.log(sumVal);
+// Logs 97
+
+sumVal = plusArrNum([26,31,40,49,100,201]);
+
+console.log(sumVal);
+// Logs 447
+
+console.log(sumVal + sumVal);
+// Logs 894
