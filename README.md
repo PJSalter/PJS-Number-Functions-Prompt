@@ -1,10 +1,10 @@
 # PJS-Number-Functions-Prompt
 
-## This is a prompt tasked by Founders and Coders where I create functions that accept numbers as arguments 
+## This is a prompt tasked by Founders and Coders where I create functions that accept numbers as arguments.
 
 ## I was given instructions to write these functions that passed once they gave the correct results of numbered arguments. 
 
-### This was fun to problem solve several different ways in writing these functions which included higher order function methods.
+### This was fun to problem solve several different ways in writing these functions which included higher order function methods. :nerd_face:
 
 ### *I attempted ES5 and ES6 variations on writing the code*
 
